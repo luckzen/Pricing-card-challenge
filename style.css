@@ -1,6 +1,6 @@
 html{
 	box-sizing: border-box;
-  font-family: 'Karla';
+  	font-family: 'Karla';
 	font-size: 16px;
 }
 
@@ -66,7 +66,7 @@ body {
 	width:50%;
 	height:100%;
 	vertical-align:top;
-	padding: 45px;
+	padding: 25px;
 	background-color: #2e98a8;
 }
 
@@ -106,7 +106,7 @@ body {
 	display: inline-block;
 	width: 50%;
 	height: 100%;
-	padding: 45px;
+	padding: 25px;
 	vertical-align: top;
 	background-color: #51d7ec;	
 	color: white;
@@ -134,4 +134,13 @@ button:hover {
 	cursor: pointer;
 	background-color: #85C44C;
 	transform: scale(1.02);
+}
+
+@media (max-width: 656px){
+	.bottom-right, #bottom-left, .container{
+	width: 100%;
+	height: auto;
+	overflow: auto;
+	}
+	
 }
