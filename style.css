@@ -136,7 +136,7 @@ button:hover {
 	transform: scale(1.02);
 }
 
-@media (max-width: 656px){
+@media (max-width: 570px){
 	.bottom-right, #bottom-left, .container{
 	width: 100%;
 	height: auto;
